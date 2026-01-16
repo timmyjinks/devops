@@ -110,5 +110,4 @@ func (c *SkibidiCrawler) proccess(h *html.Node, url string) {
 				c.proccess(n, u)
 			})
 		}
-	}
 }
